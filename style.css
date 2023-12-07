@@ -1,0 +1,345 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.contanier
+{
+    height: 630px;
+    width: 400px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 15px;
+    border-radius: 25px 25px 25px 25px;
+}
+.whatsapp
+{
+    height: 50px;
+    width: 100%;
+    padding-bottom: 10px;
+    display: inline-flex;
+    background-color: rgba(7, 94, 84);
+    color: white;
+    border-radius: 25px 25px 0 0;  
+}
+.whatsapp h2{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.whatsapp div
+{
+    margin-left: 20px;
+}
+.icon
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    position: relative;
+    left:120px;
+    font-size: 18px;
+}
+.icon div  
+{
+    margin-left: 30px;
+}
+.users
+{
+    height: 35px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(7, 94, 84);
+}
+.users a
+{
+ margin-top: 7px;
+ margin-left: 48px;
+ margin-bottom: 20px;
+ color: white;
+ font-size: 20px;
+}
+.users a:hover 
+{
+    border-bottom: 3px solid white;
+    color:white;
+}
+.photo 
+{
+    width: 55px;
+    height: 55px;
+    border-radius: 5dvi;
+    background-color: lightgray;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 30px;
+    margin-top: 19px;
+}
+.photo i 
+{
+    font-size: 40px;
+    margin-top: 12px;
+    color: white;
+}
+.chats h3,h4
+{
+    text-align: center;
+    position: relative;
+    top:-50px;
+}
+.chats h3 
+{
+    font-size: 16px;
+    font-style: bold;
+}
+.active 
+{
+    border-bottom: 3px solid white;
+    color:white;
+}
+span 
+{
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    left:20px;
+    bottom:-10px;
+}
+.pen  i
+{
+    position: relative;
+    top:-120px;
+    left:340px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 25%;
+    margin-bottom: 5px;
+    color: white;
+    background-color: green;
+}
+.content
+{
+    text-align: center;
+    position: relative;
+    top:200px;
+}
+.content h3 
+{
+    font-size: 24px;
+    font-weight: bold;
+    padding:10px;
+}
+.content p 
+{
+    font-size: 17px;
+}
+button
+{
+    text-align: center;
+    position: relative;
+    top:250px;
+    color: white;
+    font-size:20px;
+    width: 90%;
+    height: 35px;
+    left: 20px;
+    background-color: rgba(7, 94, 84);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.head 
+{
+    text-align: center;
+    width: 120px;
+    height: 20px;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 8px;
+    position: relative;
+    left: 150px;
+    background-color: gray;
+    color: white;
+}
+.msg 
+{
+    font-size: 20px;
+    width:70%;
+    height:30px;
+    border: 1px solid black;
+    margin-left: 7px;
+    margin-top: 25px;
+    border-radius: 0px 25px 25px 95px;
+    text-align: center;
+    background-color:white;
+}
+.msg1
+{
+    font-size: 20px;
+    width:70%;
+    height:30px;
+    border: 1px solid black;
+    margin-left: 110px;
+    margin-top: 25px;
+    border-radius: 25px 0px 125px 25px;
+    text-align: center;
+    background-color:rgb(37,211,102);
+    color: white;
+}
+.search
+{
+    margin-top: 40px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    width: 80%;
+    height: 10px;
+}
+img
+{
+    width:400px;
+    height: 200px;
+    margin-top: -230px;
+}
+/*KEYBOARD CODE*/
+
+.keyboard
+{
+    width: 390px;
+    height: 150px;
+    border: 3px solid black;
+    margin-top: -40px;
+    margin-left: 2px;
+    border-radius: 0px 0px 25px 25px;
+    background-color:rgb(105, 91, 91);
+}
+.number
+{
+    display: inline-flex;
+    padding: 5px;
+    letter-spacing: 35px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.number div 
+{
+    width: 30px;
+    height: 30px;
+    border:2px solid black;
+    color: white;
+    cursor: pointer;
+}
+.number div:hover
+{
+    border:1px solid black;
+    width:30px;
+    height: 28px;  
+}
+.alph
+{
+    display: inline-flex;
+    letter-spacing: 30px;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    text-align: center;
+    padding: 5px;
+    text-align: center;
+}
+.alph div
+{
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    color: white;
+    border:2px solid black;
+    cursor: pointer;
+}
+.alph div:hover
+{
+  border:1px solid black;
+  width:30px;
+  height: 28px;
+}
+.art
+{
+    display: inline-block;
+    padding: 5px;
+    letter-spacing: 35px;
+    font-size: 20px;
+    text-align: center;  
+}
+.art div 
+{
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    color: white;
+    border:2px solid black;
+    position: relative;
+    top:-160px;
+    left:350px;
+    cursor: pointer;
+}
+.art div:hover
+{
+    border:1px solid black;
+    width:30px;
+    height: 28px;
+}
+.space
+{
+    border: 2px solid black;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    top:-184px;
+    left:220px;
+    cursor: pointer;
+    color: white;
+}
+.space:hover
+{
+    border:1px solid black;
+    width:130px;
+    height: 28px; 
+}
+.esc 
+{
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    top:-331px;
+    left:4px;
+    cursor: pointer;
+    color: white;
+}
+.esc:hover
+{
+border:1px solid black;
+width:30px;
+height: 28px; 
+}
+
+
+.red
+{
+   border: 1px solid black;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   background-color: red;
+   margin-left: 200px;
+}
